@@ -24,7 +24,7 @@ Revisa cómo trata la empresa a sus usuarios y sus datos:
 
 ## Datos innecesarios. ¿Pide la web datos personales excesivos en su formulario de contacto o registro?
 
-#Fase 4: Propuesta de Refactorización (Green Coding)
+# Fase 4: Propuesta de Refactorización (Green Coding)
 
 Como desarrollador/a, no basta con encontrar los fallos; debes proponer soluciones. Redacta una propuesta de mejora técnica detallando:
 
