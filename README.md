@@ -28,15 +28,15 @@ Revisa cómo trata la empresa a sus usuarios y sus datos:
 
 Como desarrollador/a, no basta con encontrar los fallos; debes proponer soluciones. Redacta una propuesta de mejora técnica detallando:
 
-- Optimización de activos. 
+## Optimización de activos. 
 
-¿Qué formatos usarías para sustituir las imágenes actuales (ej. WebP, AVIF)?
-¿Implementarías Lazy Loading?
+- ¿Qué formatos usarías para sustituir las imágenes actuales (ej. WebP, AVIF)?
+- ¿Implementarías Lazy Loading?
 
-- Reducción de peticiones.
+## Reducción de peticiones.
   
-¿Qué librerías o scripts externos eliminarías o aplazarías para mejorar la eficiencia del código y reducir el procesamiento en el dispositivo del cliente?
+- ¿Qué librerías o scripts externos eliminarías o aplazarías para mejorar la eficiencia del código y reducir el procesamiento en el dispositivo del cliente?
 
-- Reflexión sobre la Paradoja de Jevons.
+## Reflexión sobre la Paradoja de Jevons.
   
-Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
+- Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
