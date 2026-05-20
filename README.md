@@ -16,7 +16,8 @@ Hemos realizado una medición inicial de la URL con "Website Carbon Calculator"
 
 Esta página califica la huella de carbono en unos rangos de A+,A,B,C,D,E y F.
 
-![alt text](image.png)
+<img width="1258" height="826" alt="image" src="https://github.com/user-attachments/assets/20f90562-3f9d-4a42-a3e5-85b6a4de23e7" />
+
 
 El resultado obtenido ha sido una calificación D, mostrando un mensaje que dice que esta página es más sucia que el 51% de webs del mundo.
 
