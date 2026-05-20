@@ -110,3 +110,13 @@ El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la
 ## Reducción de peticiones.
 
 ## Reflexión sobre la Paradoja de Jevons.
+
+Para evitar un colapso de la web en caso de éxito que anule el ahorro energético, aplicaría medidas de escabilidad sostenible:
+
+- Uso de CDN: Menor carga de servidor principal, reduce latencia y por tanto consumo energético por transferencia de datos
+
+- Sistemas de caché avanzados: con un caché agresivo tanto en el navegador como el servidor se producirían menos peticiones, dando lugar a un menor consumo de CPU y red
+
+- Arquitectura sostenible: cada visita consume menos energía con uso de práctica como loading lazy, carga modular... etc
+
+- Optimización continua de recursos: El resultado de esta medida sería evitar que vuelva a aparecer u software sobrecargado
