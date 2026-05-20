@@ -109,6 +109,25 @@ El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la
 
 ## Reducción de peticiones.
 
+### jQuery duplicado
+
+Se carga jquery-1.10.1.min.js en el head y luego jquery/1.11.3 al final.
+Mantendría solo una versión local  actualizada.
+
+### Font Awesome externo
+
+Se usa para pocos iconos.
+
+### Material Icons
+
+Se carga desde Google Fonts.
+
+### Scripts propios no críticos
+
+cbpAnimatedHeader.js
+theme-scripts.js
+ie-emulation-modes-warning.js
+Los aplazaría o eliminaría si solo aportan efectos visuales.
 ## Reflexión sobre la Paradoja de Jevons.
 
 Para evitar un colapso de la web en caso de éxito que anule el ahorro energético, aplicaría medidas de escabilidad sostenible:
