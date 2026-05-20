@@ -94,3 +94,19 @@ La web solo marca la opción de aceptar las cookies, sin embargo La web permite 
 Hagles S.L es una empresa que se dedica a la venta de hornos industriales, por lo que sus principales clientes son grandes empresas. En el formuario se nos pide Nombre y apellidos y cargo, por lo que entiendo que la empresa cliente enviará a un alto cargo para solicitar información sobre los productos de Hagles. También la ciudad y país, entiendo que este dato es importante por si en caso de compra, hagles pudiera valorar si puede realizar un envío de un producto de grandes dimesiones otros sitios lejanos.
 
 Concluyendo, creo que valorando el contexto, todos los datos del formulario son necesarios.
+
+# Fase 4: Propuesta de Refactorización (Green Coding)
+
+## Optimización de activos.
+
+Usaría principalmente:
+
+- AVIF: Para imágenes grandes decorativas, comprime mejor y reduce el peso.
+
+- WebP: Como formato alternativo compatible con más navegadores
+
+El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la página de inicio para que no se descargue todo a la vez y se haga más pesado
+
+## Reducción de peticiones.
+
+## Reflexión sobre la Paradoja de Jevons.
