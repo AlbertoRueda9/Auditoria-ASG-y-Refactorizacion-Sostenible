@@ -137,7 +137,6 @@ El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la
 
 - .fancybox
 
-
 ### Funciones JS Eliminadas
 
 
@@ -159,7 +158,6 @@ El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la
 - Theme Scripts
 
 - CBP Animated Header
-
 
 ### Scripts que hemos mantenido:
 
