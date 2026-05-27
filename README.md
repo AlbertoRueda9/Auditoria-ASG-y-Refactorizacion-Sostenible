@@ -97,6 +97,10 @@ Concluyendo, creo que valorando el contexto, todos los datos del formulario son 
 
 # Fase 4: Propuesta de Refactorización (Green Coding)
 
+## Errores gramaticales
+
+La web presentaba bastantes errores gramaticales, texto mal escrito que ha sido corregido.
+
 ## Optimización de activos.
 
 Usaría principalmente:
@@ -132,7 +136,6 @@ El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la
 - .collapse
 
 - .fancybox
-
 
 
 ### Funciones JS Eliminadas
