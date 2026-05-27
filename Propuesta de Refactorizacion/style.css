@@ -1,0 +1,598 @@
+:root{
+    --rojo:#c90000;
+    --verde:#004f4f;
+    --negro:#000;
+    --gris:#f1f1f1;
+    --borde:#c7c7c7;
+    --blanco:#fff
+}
+
+*{
+    box-sizing:border-box
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    color:var(--negro);
+    background:#fff;
+    font-size:16px;
+    line-height:1.45
+}
+
+a{
+    color:var(--rojo);
+    text-decoration:none
+}
+
+a:hover,
+a:focus{
+    color:var(--verde);
+    text-decoration:none
+}
+
+.container{
+    max-width:1140px;
+    width:100%;
+    margin:0 auto;
+    padding-left:15px;
+    padding-right:15px
+}
+
+.container-fluid{
+    padding-left:0;
+    padding-right:0
+}
+
+.row{
+    margin-left:-15px;
+    margin-right:-15px
+}
+
+.img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto
+}
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+
+.navbar-default{
+    background:#fff;
+    border:0;
+    border-bottom:1px solid #ccc;
+    min-height:74px;
+    margin:0
+}
+
+.navbar-fixed-top{
+    top:0
+}
+
+.navbar-default .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    min-height:74px
+}
+
+.navbar-brand{
+    height:auto;
+    padding:10px 0;
+    margin:0!important
+}
+
+.navbar-brand img{
+    height:58px!important;
+    width:auto;
+    display:block
+}
+
+.navbar-collapse{
+    border:0!important;
+    box-shadow:none!important
+}
+
+.navbar-default .navbar-nav{
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:0;
+    float:none!important
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:#000!important;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:2px;
+    padding:27px 16px;
+    background:transparent!important
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a{
+    color:var(--rojo)!important;
+    background:transparent!important
+}
+
+.navbar-toggle{
+    display:none!important
+}
+
+/* =========================================================
+   GENERAL
+========================================================= */
+
+section{
+    padding:55px 0
+}
+
+.light-bg{
+    background:#eee
+}
+
+.light{
+    background:#fff;
+    margin-top:74px;
+    padding-top:30px!important
+}
+
+.titulorojoblanco{
+    display:block;
+    background:var(--rojo);
+    color:#fff!important;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:34px;
+    line-height:1.15;
+    padding:8px 15px;
+    margin:0 auto 35px;
+    max-width:1140px;
+    letter-spacing:.5px
+}
+
+.tituloproductos{
+    color:var(--rojo)!important;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:34px;
+    margin:0 0 35px;
+    letter-spacing:1px
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-weight:300;
+    color:var(--rojo);
+    margin-top:0
+}
+
+p{
+    font-size:16px;
+    line-height:1.6;
+    color:#000
+}
+
+.text-center{
+    text-align:center
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+#carousel{
+    padding:0!important;
+    margin-top:74px!important
+}
+
+#carousel img{
+    width:100%!important;
+    height:600px!important;
+    object-fit:cover;
+    object-position:center;
+    display:block
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+#intro{
+    padding:45px 0;
+    background:#eee
+}
+
+
+#intro h1{
+font-size:30px;
+font-weight:700;
+color:var(--rojo);
+margin-bottom:20px
+}
+
+#intro p{
+max-width:850px;
+margin:0 auto;
+color:var(--rojo);
+font-weight:700;
+line-height:1.7
+}
+
+/* =========================================================
+   SERVICIOS
+========================================================= */
+
+#servicios{
+    padding:20px 0 70px;
+    background:#fff;
+    border-top:2px solid var(--rojo)
+}
+
+#servicios .titulorojoblanco{
+    margin-bottom:32px
+}
+
+#servicios h3{
+    text-transform:none;
+    color:var(--rojo);
+    font-size:27px;
+    font-weight:300;
+    margin-bottom:22px
+}
+
+#servicios .col-md-5 h3{
+    text-align:left!important;
+    text-transform:uppercase;
+    font-size:31px;
+    letter-spacing:1px
+}
+
+#servicios ul{
+    list-style:none;
+    padding:0;
+    margin:0 30px 0 0
+}
+
+#servicios li{
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:14px;
+    font-weight:700;
+    line-height:1.12;
+    padding:0 0 13px;
+    margin:0 0 36px;
+    border-bottom:3px solid #000
+}
+
+#servicios .col-md-7 p{
+    font-size:17px;
+    font-weight:700;
+    line-height:1.45;
+    margin-bottom:24px
+}
+
+#servicios .col-md-7 p strong{
+    font-weight:700
+}
+
+/* =========================================================
+   PRODUCTOS
+========================================================= */
+
+#productos{
+    background:#eee;
+    padding:22px 0 60px;
+    border-top:2px solid var(--rojo)
+}
+
+#productos .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:38px 38px;
+    margin-left:0;
+    margin-right:0;
+    justify-content:center
+}
+
+#productos article{
+    float:none!important;
+    width:31%;
+    padding:0;
+    margin:0
+}
+
+figure{
+    position:relative;
+    margin:0;
+    background:#555;
+    overflow:hidden;
+    border:0
+}
+
+figure a{
+    display:block
+}
+
+#productos figure img,
+section[aria-label="Productos"] figure img{
+    width:100%;
+    height:236px!important;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+    transition:transform .3s ease,opacity .3s ease
+}
+
+#productos figure:hover img,
+section[aria-label="Productos"] figure:hover img{
+    transform:scale(1.03);
+    opacity:.85
+}
+
+#productos figcaption,
+section[aria-label="Productos"] figcaption{
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:18px;
+    background:rgba(0,0,0,.15)
+}
+
+#productos figcaption h4,
+section[aria-label="Productos"] figcaption h4{
+    color:#fff!important;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:800;
+    text-shadow:0 2px 4px rgba(0,0,0,.8);
+    margin:0;
+    line-height:1.15
+}
+
+/* =========================================================
+   CONTACTO CENTRADO
+========================================================= */
+
+#contact .row{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    gap:55px;
+    margin:0;
+}
+
+#contact .col-md-5{
+    float:none!important;
+    width:30%;
+    padding:0;
+    text-align:center;
+}
+
+#contact .col-md-7{
+    float:none!important;
+    width:58%;
+    padding:0;
+}
+
+#contact form{
+    width:100%;
+    margin:0 auto;
+    text-align:left;
+}
+
+#contact form .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px 30px;
+    margin:0;
+}
+
+#contact .col-md-6,
+#contact .col-md-12{
+    float:none!important;
+    padding:0;
+}
+
+#contact .col-md-6{
+    width:calc(50% - 15px);
+}
+
+#contact .col-md-12{
+    width:100%;
+}
+
+#contact input.form-control,
+#contact textarea.form-control{
+    width:100%;
+}
+
+@media(max-width:991px){
+
+    #contact .row{
+        display:block;
+    }
+
+    #contact .col-md-5,
+    #contact .col-md-7{
+        width:100%;
+        max-width:720px;
+        margin:0 auto 30px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    #contact .col-md-6{
+        width:100%;
+    }
+
+}
+/* =========================================================
+   SOBRE NOSOTROS
+========================================================= */
+
+body:has(img[src*="historia"]) main > section:nth-of-type(2) .row{
+    display:flex;
+    align-items:flex-start;
+    gap:30px;
+    margin:0;
+}
+
+body:has(img[src*="historia"]) article.col-md-6{
+    width:50%;
+    padding:0;
+    float:none!important;
+}
+
+body:has(img[src*="historia"]) aside.col-md-6{
+    width:50%;
+    padding:0;
+    float:none!important;
+}
+
+body:has(img[src*="historia"]) article.col-md-6 p{
+    font-size:18px;
+    font-weight:700;
+    line-height:1.45;
+    text-align:justify;
+    margin-bottom:18px;
+}
+
+body:has(img[src*="historia"]) aside.col-md-6 .row{
+    display:flex;
+    gap:15px;
+    margin:0 0 15px 0!important;
+}
+
+body:has(img[src*="historia"]) aside.col-md-6 .col-xs-6{
+    width:50%;
+    padding:0;
+}
+
+body:has(img[src*="historia"]) aside.col-md-6 img{
+    width:100%;
+    height:260px!important;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
+@media(max-width:991px){
+    body:has(img[src*="historia"]) main > section:nth-of-type(2) .row{
+        display:block;
+    }
+
+    body:has(img[src*="historia"]) article.col-md-6,
+    body:has(img[src*="historia"]) aside.col-md-6{
+        width:100%;
+    }
+
+    body:has(img[src*="historia"]) aside.col-md-6{
+        margin-top:30px;
+    }
+}
+/* =========================================================
+   HISTORIA - BLOQUE INFERIOR
+========================================================= */
+
+.light-bg .row.margintop25{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px!important;
+}
+
+.light-bg .row.margintop25 article{
+    width:30%;
+    text-align:center;
+    float:none!important;
+    padding:0;
+}
+
+.light-bg .row.margintop25 h3{
+    color:#1f2f4a;
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:3px;
+    line-height:1.25;
+    font-weight:500;
+    margin-bottom:20px;
+    min-height:90px;
+}
+
+.light-bg .row.margintop25 p{
+    font-size:16px;
+    line-height:1.45;
+    margin-bottom:15px;
+    color:#555;
+}
+
+.light-bg .row.margintop25 img{
+    width:100%;
+    max-width:260px;
+    height:260px!important;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+    margin:0 auto;
+}
+
+/* ocultar errores PHP viejos */
+
+.light-bg .row.margintop25 article br,
+.light-bg .row.margintop25 article b:has(+ br){
+    display:none!important;
+}
+
+.light-bg .row.margintop25 article{
+    overflow:hidden;
+}
+
+/* responsive */
+
+@media(max-width:991px){
+
+    .light-bg .row.margintop25{
+        gap:30px;
+    }
+
+    .light-bg .row.margintop25 article{
+        width:45%;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .light-bg .row.margintop25{
+        display:block;
+    }
+
+    .light-bg .row.margintop25 article{
+        width:100%;
+        margin-bottom:40px;
+    }
+
+    .light-bg .row.margintop25 h3{
+        min-height:auto;
+    }
+
+}
