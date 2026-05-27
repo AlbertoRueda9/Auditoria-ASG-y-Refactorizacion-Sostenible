@@ -169,6 +169,9 @@ Este script lo hemos mantenido por el mantenimiento de las cookies y boostrap.
 
 Se mantiene  porque se siguen usando algunos modales de boostrap como el de productos
 
+La web presentaba 3 pestañas html, un index, sobre nosotros, y productos, todas estas refacturzaciones han sido realizadas en las 3, con leves modificaciones en el css
+por lo que dirías que ha sido un gran trabajo de la empresa de refactorización.
+
 ## Reflexión sobre la Paradoja de Jevons.
 
 Para evitar un colapso de la web en caso de éxito que anule el ahorro energético, aplicaría medidas de escabilidad sostenible:
