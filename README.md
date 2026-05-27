@@ -107,27 +107,66 @@ Usaría principalmente:
 
 El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la página de inicio para que no se descargue todo a la vez y se haga más pesado
 
-## Reducción de peticiones.
+### Hemos eliminado una serie de scripts que no se estaban utilizando, son los siguientes:
 
-### jQuery duplicado
+- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-Se carga jquery-1.10.1.min.js en el head y luego jquery/1.11.3 al final.
-Mantendría solo una versión local  actualizada.
+- <script src="assets/js/cbpAnimatedHeader.js"></script>
 
-### Font Awesome externo
+- <script src="assets/js/theme-scripts.js"></script>
 
-Se usa para pocos iconos.
+- <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
-### Material Icons
+- <script src="assets/js/jquery.mousewheel-3.0.6.pack.js"></script>
 
-Se carga desde Google Fonts.
+- <script src="assets/js/jquery.fancybox.js?v=2.1.5"></script>
 
-### Scripts propios no críticos
 
-cbpAnimatedHeader.js
-theme-scripts.js
-ie-emulation-modes-warning.js
-Los aplazaría o eliminaría si solo aportan efectos visuales.
+### Hemos eliminado también una serie de querys que tampoco se usaban o tenían bastante poco uso:
+
+- .navbar-toggle
+
+- .icon-bar
+
+- .collapse
+
+- .fancybox
+
+
+
+### Funciones JS Eliminadas
+
+
+- $('a').bind('click', function()
+
+- cbpAnimatedHeader
+
+
+### Librerías eliminadas
+
+- Fancybox
+
+- Mousewheel
+
+- jQuery Easing
+
+- IE Emulation
+
+- Theme Scripts
+
+- CBP Animated Header
+
+
+### Scripts que hemos mantenido:
+
+- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+Este script lo hemos mantenido por el mantenimiento de las cookies y boostrap.
+
+- <script src="assets/js/bootstrap.min.js"></script>
+
+Se mantiene  porque se siguen usando algunos modales de boostrap como el de productos
+
 ## Reflexión sobre la Paradoja de Jevons.
 
 Para evitar un colapso de la web en caso de éxito que anule el ahorro energético, aplicaría medidas de escabilidad sostenible:
