@@ -105,6 +105,7 @@ Usaría principalmente:
 
 - WebP: Como formato alternativo compatible con más navegadores
 
+
 El loading lazy lo implementaría sobre todo en imágenes que no aparezcan en la página de inicio para que no se descargue todo a la vez y se haga más pesado
 
 ### Hemos eliminado una serie de scripts que no se estaban utilizando, son los siguientes:
